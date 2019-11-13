@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 	int n, bosluk, yaz=1;
-	printf("Enter a nodd number=");
+	printf("Enter an odd number=");
 	scanf("%d",&n);
 	for (int i=1; i<=n; i++)
 	{
