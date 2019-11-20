@@ -4,7 +4,9 @@
 
 int main(void){
 	srand(time(0));
-	int k=rand();
-	printf("The random number is %d\n", k);
+	for (int i = 0; i < 5; ++i)
+	{
+		int k=rand();
+		printf("The random number is %d\n", k);
+	}
 }
-
